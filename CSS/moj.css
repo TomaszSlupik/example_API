@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+
+.img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.test {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.one,
+.two,
+.three {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+
+.two,
+.three {
+	margin-left: 10px;
+}
